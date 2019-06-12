@@ -1,0 +1,8 @@
+version: '3'
+services:
+  php-zts:
+    build:
+      dockerfile: Dockerfile.php-zts
+      context: .
+    volumes:
+      - .:/app

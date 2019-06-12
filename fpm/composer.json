@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "require": {
+        "php": "^7.2",
+        "ext-redis": "*",
+        "hollodotme/fast-cgi-client": "^2.7",
+        "fzaninotto/faker": "^1.8"
+    }
+}

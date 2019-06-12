@@ -1,0 +1,4 @@
+FROM php:7.3-zts
+RUN pecl install parallel && docker-php-ext-enable parallel
+RUN pecl install redis && docker-php-ext-enable redis
+RUN docker-php-ext-install pcntl

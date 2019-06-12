@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "ParallelPhp\\": "src"
+    }
+  },
+  "require": {
+    "react/event-loop": "^1.1"
+  }
+}
